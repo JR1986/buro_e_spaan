@@ -148,34 +148,6 @@ img {
   background-color: #262933;
 }
 
-.section.hero {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 650px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  background-image: url("https://uploads-ssl.webflow.com/5b7c4e0899d40435385d7571/5b7c536a548b5c16ad7c76f5_bg-spaan.svg");
-  background-position: 100% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
 .section.grey {
   padding-left: 1px;
   background-color: #fafafa;
@@ -325,17 +297,6 @@ img {
   background-color: #eff1f4;
 }
 
-.quote-box {
-  padding: 34px 40px 34px 98px;
-  border-radius: 8px;
-  background-color: #fff;
-  background-image: url("https://uploads-ssl.webflow.com/5b7c4e0899d40435385d7571/5b7c4e0899d404a9bf5d7593_12-quotes.png");
-  background-position: 8% 22%;
-  background-size: 50px;
-  background-repeat: no-repeat;
-  text-align: left;
-}
-
 .quote {
   color: #2d303b;
   font-size: 15px;
@@ -475,8 +436,7 @@ img {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-image: -webkit-linear-gradient(353deg, #000, hsla(0, 0%, 100%, .24)), url("https://uploads-ssl.webflow.com/5b7c4e0899d40435385d7571/5bb7b0421b04ca4c32552289_molen.jpg");
-  background-image: linear-gradient(97deg, #000, hsla(0, 0%, 100%, .24)), url("https://uploads-ssl.webflow.com/5b7c4e0899d40435385d7571/5bb7b0421b04ca4c32552289_molen.jpg");
+  background-image: linear-gradient(97deg, #000, hsla(0, 0%, 100%, .24)), url("hero-image.jpg");
   background-position: 0px 0px, 78% 1%;
   background-size: auto, cover;
 }
@@ -948,8 +908,7 @@ img {
   }
   .div-block {
     height: 550px;
-    background-image: -webkit-linear-gradient(358deg, rgba(0, 0, 0, .87), rgba(48, 48, 48, .5) 48%, hsla(0, 0%, 100%, .33)), url("https://uploads-ssl.webflow.com/5b7c4e0899d40435385d7571/5bb7b0421b04ca4c32552289_molen.jpg");
-    background-image: linear-gradient(92deg, rgba(0, 0, 0, .87), rgba(48, 48, 48, .5) 48%, hsla(0, 0%, 100%, .33)), url("https://uploads-ssl.webflow.com/5b7c4e0899d40435385d7571/5bb7b0421b04ca4c32552289_molen.jpg");
+    background-image: -webkit-linear-gradient(358deg, rgba(0, 0, 0, .87), rgba(48, 48, 48, .5) 48%, hsla(0, 0%, 100%, .33)), url("hero-image.jpg");
     background-position: 0px 0px, 65% 121%;
     background-size: auto, cover;
   }

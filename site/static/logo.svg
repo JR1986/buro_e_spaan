@@ -1,0 +1,18 @@
+<svg width="890px" height="130px" viewBox="0 0 890 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-1" transform="translate(-7.000000, -2.000000)">
+            <text id="BURO" font-family="Futura-Bold, Futura" font-size="100" font-weight="bold" letter-spacing="5.90741062" fill="#444444">
+                <tspan x="0" y="106">BURO</tspan>
+            </text>
+            <text id="SPAAN" font-family="Futura-Bold, Futura" font-size="100" font-weight="bold" letter-spacing="5.907411" fill="#444444">
+                <tspan x="501" y="106">SPAAN</tspan>
+            </text>
+            <g id="Group" transform="translate(354.000000, 0.000000)">
+                <circle id="Oval" fill="#20B2AA" fill-rule="nonzero" cx="65" cy="67" r="65"></circle>
+                <text id="€" font-family="Futura-Bold, Futura" font-size="100" font-weight="bold" letter-spacing="5.907412" fill="#FFFFFF">
+                    <tspan x="28" y="104">€</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
