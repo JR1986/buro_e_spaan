@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <meta charset="utf-8" />
     <title>buro e. spaan</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -188,7 +189,7 @@
           </div>
           <div class="form-container w-col w-col-7 w-col-stack">
             <div class="w-form">
-              <form id="email-form" name="email-form" data-name="Email Form">
+              <form name="email-form" data-netlify="true">
                 <label for="name" class="field-label">Naam</label
                 ><input
                   type="text"
@@ -197,7 +198,6 @@
                   name="name"
                   data-name="Name"
                   placeholder="Vul je naam in"
-                  id="name"
                 /><label for="email" class="field-label-2">Emailadres</label
                 ><input
                   type="email"
@@ -206,34 +206,20 @@
                   name="email"
                   data-name="Email"
                   placeholder="Vul je emailadres in"
-                  id="email"
                   required=""
                 /><label for="email-2" class="field-label-2">Bericht</label
                 ><textarea
-                  id="field"
                   name="field"
                   placeholder="Vul je bericht in"
                   maxlength="5000"
                   class="textarea w-input"
                 ></textarea>
-                <div class="div-block-3">
-                  <div
-                    class="w-form-formrecaptcha recaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled g-recaptcha-invalid-key"
-                  ></div>
-                </div>
                 <input
                   type="submit"
                   value="Bericht versturen"
-                  data-wait="Bericht aan het versturen"
                   class="submit-button w-button"
                 />
               </form>
-              <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div>
             </div>
           </div>
         </div>
