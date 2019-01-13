@@ -2806,7 +2806,6 @@ img {
   .container {
     padding-top: 67px;
     padding-bottom: 0px;
-    padding-left: 20px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3184,8 +3183,7 @@ img {
 
 @media (min-width: 992px) {
   nav {
-		display: inline-block;
-		margin-left: 150px;
+		float: right;
 	}
 }
 
@@ -3198,5 +3196,8 @@ img {
   .w-container .nav-menu-open {
     float: none !important;
     max-height: 400px !important;
-  }
+	}
+	.image-5 {
+		padding-left: 20px;
+	}
 }
