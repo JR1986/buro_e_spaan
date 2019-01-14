@@ -2590,8 +2590,8 @@ img {
 
 .image-5 {
   width: 180px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding-top: 0px;
   line-height: 20px;
 }
@@ -3183,8 +3183,8 @@ img {
 
 @media (min-width: 992px) {
   nav {
-		float: right;
-	}
+    float: right;
+  }
 }
 
 @media (max-width: 991px) {
@@ -3196,8 +3196,21 @@ img {
   .w-container .nav-menu-open {
     float: none !important;
     max-height: 400px !important;
-	}
-	.image-5 {
-		padding-left: 20px;
-	}
+  }
+}
+
+@media screen and (min-width: 677px) and (max-width: 991px) {
+  .image-5 {
+    padding-left: 20px;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+  margin: 0;
+  font-size: 8px;
+}
+
+.label-no-margin-top {
+  margin-top: 0;
 }
