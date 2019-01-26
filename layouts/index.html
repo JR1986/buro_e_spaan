@@ -250,6 +250,6 @@
       crossorigin="anonymous"
     ></script>
     {{ $script := resources.Get "script.js" | resources.Minify | resources.Fingerprint }}
-    <script src="{{ $script.Permalink }}" type="text/javascript"></script>
+    <script src="{{ $script.Permalink }}" type="text/javascript" async></script>
   </body>
 </html>
