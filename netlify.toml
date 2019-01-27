@@ -4,3 +4,7 @@ command = "hugo"
 
 [context.production.environment]
 HUGO_VERSION = "0.53"
+
+[[redirects]]
+  from = "https://youthful-nobel-79e6c2.netlify.com"
+  to = "https://buroespaan.nl"

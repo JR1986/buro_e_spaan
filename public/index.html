@@ -3,12 +3,17 @@
   <head>
 	<meta name="generator" content="Hugo 0.53" />
     <meta charset="utf-8" />
-    <title>buro e. spaan</title>
+    <title>Buro €. Spaan</title>
+    <meta
+      name="description"
+      content="Buro €. spaan | Zaanstreek | De boekhouder voor de ZZP&#x27;er | belastingaangifte | BTW-aangifte | administratie"
+    />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     
-    <link rel="stylesheet" href="/styles.min.775050d7ccc3a5872d8d8540dc4e580af7efc9625456da6196640e01a46b9bbb.css" type="text/css" />
+    <link rel="stylesheet" href="/styles.min.90d8488535ca29e9299f5fb6ef1e08a0c8559c4b56fab7ff89b04c052cf3fd8b.css" type="text/css" />
     
   </head>
+
   <body>
     <div>
       <div
@@ -19,16 +24,21 @@
         class="navbar w-nav"
       >
         <div class="container-3 w-container">
-          <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="#over-ons" class="nav-link">over ons</a
-            ><a href="#onze-diensten" class="nav-link">Onze Diensten</a
-            ><a href="#samenwerking" class="nav-link">samenwerking</a
-            ><a href="#contact" class="nav-link">Contact</a>
-          </nav>
           <div class="menu-button w-nav-button">
-            <div class="icon w-icon-nav-menu"></div>
+            <img class="icon nav-menu-icon" src="menu.png">
           </div>
-          <img src="logo.png" alt="Buro E. Spaan" width="200" class="image-5" />
+          <img src="logo.png" alt="Buro E. Spaan" class="image-5" />
+          <nav role="navigation" class="nav-menu nav-collapse">
+            <a href="#over-ons" class="nav-link nav-link-hide-sd"
+              ><span class="item-custom-spacing">over ons</span></a
+            ><a href="#onze-diensten" class="nav-link nav-link-hide-sd"
+              ><span>Onze Diensten</span></a
+            ><a href="#samenwerking" class="nav-link nav-link-hide-sd"
+              ><span>samenwerking</span></a
+            ><a href="#contact" class="nav-link nav-link-hide-sd"
+              ><span>Contact</span></a
+            >
+          </nav>
         </div>
       </div>
       <div id="header" class="div-block">
@@ -54,7 +64,7 @@
           noodzakelijke belastingaangiften.
         </p>
         <blockquote class="block-quote">
-          <strong>“Ken je klant”</strong> is het motto van Buro E. Spaan.
+          <strong>“Ken je klant”</strong> is het motto van Buro €. Spaan.
         </blockquote>
         <p class="paragraph-7">
           Bij Buro €. Spaan denken wij vanuit het perspectief van de ZZP’er.
@@ -76,7 +86,7 @@
             class="column spacing-top-sd w-col w-col-4 w-col-stack w-col-small-small-stack"
           >
             <div class="icon-container">
-              <img src="file-document.png" alt="file-document" class="image" />
+              <img src="file-document.png" alt="document" class="image" />
             </div>
             <h3 class="heading">Financiële administratie</h3>
             <p class="paragraph-8">
@@ -97,7 +107,7 @@
             class="column3 spacing-top-sd w-col w-col-4 w-col-stack w-col-small-small-stack"
           >
             <div class="icon-container">
-              <img src="file-chart.png" alt="file-chart" class="image" />
+              <img src="file-chart.png" alt="document grafiek" class="image" />
             </div>
             <h3 class="heading"><strong>Rapportages</strong></h3>
             <p class="paragraph-4">
@@ -123,7 +133,7 @@
             class="column3 spacing-top-sd w-col w-col-4 w-col-stack w-col-small-small-stack"
           >
             <div class="icon-container">
-              <img src="taxes.png" alt="tax icon" class="image tax-icon" />
+              <img src="taxes.png" alt="belastingdienst" class="image tax-icon" />
             </div>
             <h3 class="heading">Belastingaangifte</h3>
             <p class="paragraph-4">
@@ -154,6 +164,7 @@
             target="_blank"
             class="external-link"
             rel="noopener"
+            aria-label="Ga naar website van Administratiekantoor Buro Bicker"
             ><span>Buro Bicker</span></a
           >, die gekwalificeerd lid is van de Nederlandse Orde van
           Administratie- en Belastingdeskundigen. Het NOAB is de
@@ -174,7 +185,7 @@
               Indien u contact met ons wenst op te nemen, kunt u zich wenden tot
               onderstaande telefoonnummer:<br />
             </p>
-            <img src="phone.png" alt="phone icon" class="image-6" />
+            <img src="phone.png" alt="telefoon" class="image-6" />
             <p class="paragraph-10">06 1164 8410</p>
             <p class="paragraph-11">
               Of via het contact formulier<span
@@ -184,59 +195,51 @@
           </div>
           <div class="form-container w-col w-col-7 w-col-stack">
             <div class="w-form">
-              <form id="email-form" name="email-form" data-name="Email Form">
-                <label for="name" class="field-label">Naam</label
+              <form name="email-form" data-netlify="true">
+                <p class="hidden">
+                  <label
+                    >Don’t fill this out if you're human:
+                    <input name="bot-field"
+                  /></label>
+                </p>
+                <label for="name" class="field-label label-no-margin-top"
+                  >Naam</label
                 ><input
                   type="text"
                   class="text-field w-input"
                   maxlength="256"
                   name="name"
-                  data-name="Name"
                   placeholder="Vul je naam in"
-                  id="name"
-                /><label for="email" class="field-label-2">Emailadres</label
-                ><input
+                />
+                <label for="email" class="field-label-2">Emailadres</label>
+                <input
                   type="email"
                   class="text-field-2 w-input"
                   maxlength="256"
                   name="email"
-                  data-name="Email"
                   placeholder="Vul je emailadres in"
-                  id="email"
                   required=""
-                /><label for="email-2" class="field-label-2">Bericht</label
-                ><textarea
-                  id="field"
+                />
+                <label for="field" class="field-label-2">Bericht</label>
+                <textarea
                   name="field"
                   placeholder="Vul je bericht in"
                   maxlength="5000"
                   class="textarea w-input"
                 ></textarea>
-                <div class="div-block-3">
-                  <div
-                    class="w-form-formrecaptcha recaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled g-recaptcha-invalid-key"
-                  ></div>
-                </div>
                 <input
                   type="submit"
                   value="Bericht versturen"
-                  data-wait="Bericht aan het versturen"
                   class="submit-button w-button"
                 />
               </form>
-              <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <footer class="section footer">
-      <a href="#navbar" class="link-block w-inline-block"></a>
+      <a href="#navbar" class="back-to-top link-block w-inline-block"></a>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -245,7 +248,6 @@
       crossorigin="anonymous"
     ></script>
     
-    <script src="/script.min.2629d2aad510a64de4013121e009acae45da89ae1c7b83673a9c7d31246ef69b.js" type="text/javascript"></script>
-    
+    <script src="/script.min.760938df69fc29b14f84794a77a6f6742768234f82d03e3c893687d8e70372f8.js" type="text/javascript" async></script>
   </body>
 </html>
