@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
-    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
     <meta charset="utf-8" />
     <title>Buro €. Spaan</title>
     <meta
       name="description"
-      content="Buro €. spaan | Boekhouder uit de Zaanstreek | belastingaangifte | BTW-aangifte | administratie"
+      content="Buro €. spaan | Zaanstreek | De boekhouder voor de ZZP&#x27;er | belastingaangifte | BTW-aangifte | administratie"
     />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     {{ $style := resources.Get "styles.css" | resources.Minify | resources.Fingerprint }}
@@ -91,7 +90,7 @@
             class="column spacing-top-sd w-col w-col-4 w-col-stack w-col-small-small-stack"
           >
             <div class="icon-container">
-              <img src="file-document.png" alt="file-document" class="image" />
+              <img src="file-document.png" alt="document" class="image" />
             </div>
             <h3 class="heading">Financiële administratie</h3>
             <p class="paragraph-8">
@@ -112,7 +111,7 @@
             class="column3 spacing-top-sd w-col w-col-4 w-col-stack w-col-small-small-stack"
           >
             <div class="icon-container">
-              <img src="file-chart.png" alt="file-chart" class="image" />
+              <img src="file-chart.png" alt="document grafiek" class="image" />
             </div>
             <h3 class="heading"><strong>Rapportages</strong></h3>
             <p class="paragraph-4">
@@ -138,7 +137,7 @@
             class="column3 spacing-top-sd w-col w-col-4 w-col-stack w-col-small-small-stack"
           >
             <div class="icon-container">
-              <img src="taxes.png" alt="tax icon" class="image tax-icon" />
+              <img src="taxes.png" alt="belastingdienst" class="image tax-icon" />
             </div>
             <h3 class="heading">Belastingaangifte</h3>
             <p class="paragraph-4">
@@ -169,6 +168,7 @@
             target="_blank"
             class="external-link"
             rel="noopener"
+            aria-label="Ga naar website van Administratiekantoor Buro Bicker"
             ><span>Buro Bicker</span></a
           >, die gekwalificeerd lid is van de Nederlandse Orde van
           Administratie- en Belastingdeskundigen. Het NOAB is de
@@ -189,7 +189,7 @@
               Indien u contact met ons wenst op te nemen, kunt u zich wenden tot
               onderstaande telefoonnummer:<br />
             </p>
-            <img src="phone.png" alt="phone icon" class="image-6" />
+            <img src="phone.png" alt="telefoon" class="image-6" />
             <p class="paragraph-10">06 1164 8410</p>
             <p class="paragraph-11">
               Of via het contact formulier<span
@@ -214,21 +214,24 @@
                   maxlength="256"
                   name="name"
                   placeholder="Vul je naam in"
-                /><label for="email" class="field-label-2">Emailadres</label
-                ><input
+                />
+                <label for="email" class="field-label-2">Emailadres</label>
+                <input
                   type="email"
                   class="text-field-2 w-input"
                   maxlength="256"
                   name="email"
                   placeholder="Vul je emailadres in"
                   required=""
-                /><label for="email-2" class="field-label-2">Bericht</label
-                ><textarea
+                />
+                <label for="field" class="field-label-2">Bericht</label>
+                <textarea
                   name="field"
                   placeholder="Vul je bericht in"
                   maxlength="5000"
                   class="textarea w-input"
                 ></textarea>
+                <div data-netlify-recaptcha="false"></div>
                 <input
                   type="submit"
                   value="Bericht versturen"
