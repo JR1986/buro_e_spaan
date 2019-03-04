@@ -2009,3 +2009,9 @@ img {
 .label-no-margin-top {
 	margin-top: 0;
 }
+
+.container-privacy-statement {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 24px;
+}
